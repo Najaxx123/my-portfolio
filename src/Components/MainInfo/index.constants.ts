@@ -8,13 +8,13 @@ interface Social {
   icon: IconType;
 }
 
-export const whoIAm: string = "Hello, I'm Romain Brival";
-export const whatIAm: string = "I'm a French Front-End Develloper";
+export const whoIAm: string = "Bonjour, je m'appelle Romain Brival";
+export const whatIAm: string = "Je suis un Devloppeur Front-End Français";
 export const whoIWannaBe: Array<string> = [
 // 'Graduated in Computer Science',
-  'Studying to become a FullStack Developer',
-  'Studying to become a Better Person',
-  'Studying to become a Better Professional',
+  "J'E'tudie pour devenir un Devloppeur FullStack",
+  "J'Etudie pour devenir une personne meilleure",
+  "J'Etudie pour devenir un meilleur pro",
 ];
 export const whoIWannaBeTimes: Array<number> = [1500, 1500, 1500, 5000];
 
