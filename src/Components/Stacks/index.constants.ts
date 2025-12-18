@@ -11,5 +11,6 @@ export const stacks: Array<StackProps> = [
   { name: 'PHP', goodAt: 'intermediate' },
   { name: 'SQL', goodAt: 'intermediate' },
   { name: 'React', goodAt: 'beginner' },
-  { name: 'NodeJS', goodAt: 'beginner' }
+  { name: 'NodeJS', goodAt: 'beginner' },
+  { name: 'Python', goodAt: 'beginner'}
 ];
