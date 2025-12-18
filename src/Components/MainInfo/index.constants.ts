@@ -19,15 +19,15 @@ export const whoIWannaBe: Array<string> = [
 export const whoIWannaBeTimes: Array<number> = [1500, 1500, 1500, 5000];
 
 export const socials: Array<Social> = [
-  { name: 'github', href: 'https://github.com/FelipeESchmidt', icon: BsGithub },
+  { name: 'github', href: 'https://github.com/Najaxx123', icon: BsGithub },
   {
     name: 'linkedin',
-    href: 'https://www.linkedin.com/in/felipe-ernesto-schmidt/',
+    href: 'https://www.linkedin.com/in/romain-brival-933532352/',
     icon: BsLinkedin,
   },
   {
     name: 'instagram',
-    href: 'https://www.instagram.com/feschmidt_/',
+    href: 'https://www.instagram.com/romain_brvl/',
     icon: BsInstagram,
   },
   {
