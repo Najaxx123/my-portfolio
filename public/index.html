@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="Felipe Ernesto Schmidt Portfolio">
+    <meta name="author" content="Felipe Ernesto Schmidt">
+    <meta name="description" content="Hello, my name is Felipe or Phillip, I'm a Brazilian developer currently working as a Front-End and studying Computer Science">
+
+    <meta name="keywords" content="developer, front-end, portfolio, react-portfolio, react-app, reactjs, react">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://felipeschmidt.me/">
+    <meta property="og:title" content="Felipe Ernesto Schmidt Portfolio">
+    <meta property="og:description" content="Hello, my name is Felipe or Phillip, I'm a Brazilian developer currently working as a Front-End and studying Computer Science">
+    <meta property="og:image" content="https://uploaddeimagens.com.br/images/003/903/007/full/felipeschmidt.me.png?1655167570">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://felipeschmidt.me/">
+    <meta property="twitter:title" content="Felipe Ernesto Schmidt Portfolio">
+    <meta property="twitter:description" content="Hello, my name is Felipe or Phillip, I'm a Brazilian developer currently working as a Front-End and studying Computer Science">
+    <meta property="twitter:image" content="https://uploaddeimagens.com.br/images/003/903/007/full/felipeschmidt.me.png?1655167570">
+
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <title>Felipe E. Schmidt</title>
+    <!-- pre-react-styles -->
+    <style>
+      .loading-content {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #1e2227;
+      }
+      @keyframes loadingAnimation {
+        0% {
+          transform: rotate(0deg);
+        }
+        35% {
+          transform: rotate(40deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .loading-wrapper{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120px;
+        height: 120px;
+      }
+      .loading {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 3px solid white;
+        border-top: 3px solid black;
+        box-shadow: 0px 0px 5px 0px black;
+        transform: rotate(0deg);
+        animation: loadingAnimation 1.5s linear infinite both;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div class="loading-content">
+        <div class="loading-wrapper">
+          <div class="loading">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
