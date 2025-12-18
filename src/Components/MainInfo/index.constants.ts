@@ -11,7 +11,7 @@ interface Social {
 export const whoIAm: string = "Hello, I'm Romain Brival";
 export const whatIAm: string = "I'm a French Front-End Develloper";
 export const whoIWannaBe: Array<string> = [
-  'Graduated in Computer Science',
+// 'Graduated in Computer Science',
   'Studying to become a FullStack Developer',
   'Studying to become a Better Person',
   'Studying to become a Better Professional',
@@ -32,7 +32,7 @@ export const socials: Array<Social> = [
   },
   {
     name: 'email',
-    href: 'mailto:contact@felipeschmidt.me?subject=Contact from website&body=Your message',
+    href: 'mailto:romain.brival@gmail.com?subject=Contact depuis le portfolio de Romain Brival&body=Votre message',
     icon: FiMail,
   },
 ];
