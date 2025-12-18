@@ -12,9 +12,9 @@ export const whoIAm: string = "Bonjour, je m'appelle Romain Brival";
 export const whatIAm: string = "Je suis un Devloppeur Front-End Français";
 export const whoIWannaBe: Array<string> = [
 // 'Graduated in Computer Science',
-  "J'E'tudie pour devenir un Devloppeur FullStack",
+  "J'Etudie pour devenir un Devloppeur FullStack",
   "J'Etudie pour devenir une personne meilleure",
-  "J'Etudie pour devenir un meilleur pro",
+  "J'Etudie pour devenir un meilleur professionnel",
 ];
 export const whoIWannaBeTimes: Array<number> = [1500, 1500, 1500, 5000];
 
