@@ -8,8 +8,8 @@ interface Social {
   icon: IconType;
 }
 
-export const whoIAm: string = "Sup, I'm Felipe Schmidt";
-export const whatIAm: string = "I'm a Brazilian Front-end Developer and a Computer Scientist";
+export const whoIAm: string = "Hello, I'm Romain Brival";
+export const whatIAm: string = "I'm a French Front-End Develloper";
 export const whoIWannaBe: Array<string> = [
   'Graduated in Computer Science',
   'Studying to become a FullStack Developer',
