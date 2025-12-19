@@ -17,7 +17,7 @@ function WholeContactPage() {
       </S.Breadcrumb>
       <S.WholeContactWrapper>
         <S.StyledMiniContainer left={true}>
-          <S.StyledText>Feel free to contact me</S.StyledText>
+          <S.StyledText>N’hésitez pas à me contacter</S.StyledText>
           <S.StyledLinks>
             {socials.map((social) => (
               <Social key={social.name} href={social.href} target="_blank">
